@@ -1,0 +1,14 @@
+{
+  "name": "themostdangerouswritingapp",
+  "description": "The Most Dangerous Writing App",
+  "scripts": {
+    "predeploy": "yarn build"
+  },
+  "env": {
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
